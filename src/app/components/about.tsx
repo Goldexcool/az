@@ -78,7 +78,7 @@ const Hero = () => {
                     </a>
                 </div>
             </div>
-            <Image src={about} alt='hero' className=' md:order-1 order-1 h-[100vh] rounded-md' />
+            <Image src={about} alt='hero' className=' md:order-1 order-1 lg:h-[100vh] lg:rounded-md' />
         </section>
 
     )
