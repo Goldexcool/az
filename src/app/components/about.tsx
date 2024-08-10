@@ -15,7 +15,7 @@ const Hero = () => {
                 <div className='flex items-center w-full'>
                   <div className='flex items-center w-full flex-col'>
                     <div className='flex items-center w-full justify-between mb-2 text-main-color-black'>
-                      <h1>HTML</h1>
+                      <h1>Shopify Development</h1>
                       <h2>95%</h2>
                     </div>
                     <div className='w-full bg-orange-50 rounded-[10px]'>
@@ -27,7 +27,7 @@ const Hero = () => {
                 <div className='flex items-center w-full'>
                   <div className='flex items-center w-full flex-col'>
                     <div className='flex items-center w-full justify-between mb-2 text-main-color-black'>
-                      <h1>CSS</h1>
+                      <h1>Website Development</h1>
                       <h2>90%</h2>
                     </div>
                     <div className='w-full bg-orange-50 rounded-[10px]'>
@@ -39,7 +39,7 @@ const Hero = () => {
                 <div className='flex items-center w-full'>
                   <div className='flex items-center w-full flex-col'>
                     <div className='flex items-center w-full justify-between mb-2 text-main-color-black'>
-                      <h1>Javascript</h1>
+                      <h1>Email Marketing</h1>
                       <h2>85%</h2>
                     </div>
                     <div className='w-full bg-orange-50 rounded-[10px]'>
@@ -51,7 +51,7 @@ const Hero = () => {
                 <div className='flex items-center w-full'>
                   <div className='flex items-center w-full flex-col'>
                     <div className='flex items-center w-full justify-between mb-2 text-main-color-black'>
-                      <h1>Next Js</h1>
+                      <h1>SEO Optimization</h1>
                       <h2>80%</h2>
                     </div>
                     <div className='w-full bg-orang-50 rounded-[10px]'>
@@ -63,7 +63,7 @@ const Hero = () => {
                 <div className='flex items-center w-full'>
                   <div className='flex items-center w-full flex-col'>
                     <div className='flex items-center w-full justify-between mb-2 text-main-color-black'>
-                      <h1>Tailwind </h1>
+                      <h1>Ecoomerce Consultant</h1>
                       <h2>80%</h2>
                     </div>
                     <div className='w-full bg-orange-50 rounded-[10px]'>
