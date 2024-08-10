@@ -13,7 +13,7 @@ const Hero = () => {
                 </div>
                 <div className='flex items-center flex-col w-full gap-5'>
                 <div className='flex items-center w-full'>
-                  <div className='flex items-center w-full flex-col'>
+                  <div className='flex items-center w-full flex-col mt-[0.5rem]'>
                     <div className='flex items-center w-full justify-between mb-2 text-main-color-black'>
                       <h1>Shopify Development</h1>
                       <h2>95%</h2>
