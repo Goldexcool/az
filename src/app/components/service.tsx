@@ -15,32 +15,44 @@ interface ServiceType {
 const Services = () => {
 
 
+    const descriptions = {
+        'Shopify Development': "This encompasses everything from the usability and functionality of a product to the satisfaction and delight a user feels while using it.",
+        'Email Marketing': "Email marketing involves creating targeted and effective email campaigns to engage users and drive conversions.",
+        'Graphics': "Graphics play a crucial role in enhancing the visual appeal and user engagement of a product.",
+        'Website Design': "Website development involves creating software website applications for specific platforms such as mobile devices, desktops, or web browsers."
+    };
+    
     const services = [
         {
             id: 1,
             image01: ux,
-            niche: 'Ui/Ux',
+            niche: 'Shopify Development',
             desc: "This encompasses everything from the usability and functionality of a product to the satisfaction and delight a user feels while using it."
         },
         {
             id: 2,
             image01: app,
-            niche: "App Design",
-            desc: "Mobile development focuses specifically on creating applications for mobile devices such as smartphones and tablets",
+            niche: "Email Marketing",
+            desc: "Email marketing involves creating targeted and effective email campaigns to engage users and drive conversions.",
         },
         {
             id: 3,
             image01: graphics,
-            niche: "Graphics Design",
-            desc: "Graphics play a crucial role in enhancing the visual appeal and user engagement of a product."
+            niche: "SEO Optimization",
+            desc: "Comprehensive SEO optimization services to improve your website's visibility, increase organic traffic, and achieve higher search engine rankings.",
         },
         {
             id: 4,
             image01: web,
-            niche: "Web Design",
-            desc: "App development involves creating software applications for specific platforms such as mobile devices, desktops, or web browsers."
+            niche: "Website Design",
+            desc: "Website development involves creating software website applications for specific platforms such as mobile devices, desktops, or web browsers."
         }
-    ]
+    ];
+    
+  
+    
+    console.log(services);
+    
     return (
         <section className='grid md:grid-rows-2 gap-2 md:px-[3rem] sm:px-10 px-5 mt-[4rem]'>
             <div className=' flex flex-col justify-center mb-[1rem]'>
