@@ -35,6 +35,10 @@ font-family: 'Poppins', sans-serif;
     height: 0.4rem;
     background: hsl(0, 0%, 93%);
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 ::-webkit-scrollbar-thumb:horizontal {
     background: rgb(229, 215, 215);

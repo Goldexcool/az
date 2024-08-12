@@ -9,8 +9,11 @@ const Header = () => {
     const handleOpen = () => {
         setNavbarOpen(!navbarOpen);
     };
+    const handleClose = () => {
+        setNavbarOpen(false);
+    };
     return (
-        <header className="flex justify-center items-center w-full lg:px-12 px-2">
+        <header className="flex justify-center items-center w-full lg:px-12 px-2" >
             <div className="w-full bg-[#fff] left-0 right-0 ease-in-out duration-300 h-[100px] flex items-center">
                 <div className="flex justify-between w-full items-center px-4 lg:px-0">
                     <div className="flex gap-[5px] cursor-pointer" >
@@ -18,22 +21,22 @@ const Header = () => {
                     </div>
                     <div className="hidden lg:flex justify-between items-center lg:gap-[25px] xl:gap-[25px] ">
                         <div>
-                            <a href="#" className="text-[16px] font-[400] cursor-pointer hover:underline">
+                            <a href="#home" className="text-[16px] font-[400] cursor-pointer hover:underline">
                                 Home
                             </a>
                         </div>
                         <div className="flex items-center cursor-pointer">
-                            <a href="#" className="text-[16px] font-[400] cursor-pointer hover:underline">About</a>
+                            <a href="#about" className="text-[16px] font-[400] cursor-pointer hover:underline">About</a>
                         </div>
                         <div className="flex items-center cursor-pointer">
-                            <a href="#" className="text-[16px] font-[400] cursor-pointer hover:underline">Services</a>
+                            <a href="#service" className="text-[16px] font-[400] cursor-pointer hover:underline">Services</a>
                         </div>
                         <div className="flex items-center cursor-pointer">
-                            <a href="#" className="text-[16px] font-[400] cursor-pointer hover:underline">Project</a>
+                            <a href="#project" className="text-[16px] font-[400] cursor-pointer hover:underline">Project</a>
                         </div>
 
                         <div className="flex items-center cursor-pointer">
-                            <a href="#" className="text-[16px] font-[400] cursor-pointer hover:underline">Contact</a>
+                            <a href="#contact" className="text-[16px] font-[400] cursor-pointer hover:underline">Contact</a>
                         </div>
                     </div>
                     <div className="flex items-center gap-4 xl:gap-[25px] lg:gap-[30px]">
@@ -57,19 +60,19 @@ const Header = () => {
                 </div>
                 <div className="menu flex flex-col gap-[20px] items-center  justify-center p-6 h-[100vh]">
                     <ul className="text-[20px] text-center mt-10">
-                        <a href="/">
+                        <a href="#home" onClick={handleClose}>
                             <li className="text-main-color-gray cursor-pointer hover:scale-105 mt-10">Home</li>
                         </a>
-                        <a href="/">
+                        <a href="#about" onClick={handleClose}>
                             <li className="text-main-color-gray cursor-pointer hover:scale-105 mt-10">About</li>
                         </a>
-                        <a href="/">
+                        <a href="#service" onClick={handleClose}>
                             <li className="text-main-color-gray cursor-pointer hover:scale-105 mt-10">Services</li>
                         </a>
-                        <a href="/">
+                        <a href="#project" onClick={handleClose}>
                             <li className="text-main-color-gray cursor-pointer hover:scale-105 mt-10">Project</li>
                         </a>
-                        <a href="/">
+                        <a href="#contact" onClick={handleClose}>
                             <li className="text-main-color-gray cursor-pointer hover:scale-105 mt-10">Contact</li>
                         </a>
                         <div className="flex justify-center gap-2 mt-10">

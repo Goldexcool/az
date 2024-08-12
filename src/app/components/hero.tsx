@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
     return (
-        <section className='grid lg:grid-cols-2 md:grid-cols-1 gap-10 mx-auto md:px-[3rem] sm:px-10 px-5 mt-[2rem] '>
+        <section className='grid lg:grid-cols-2 md:grid-cols-1 gap-10 mx-auto md:px-[3rem] sm:px-10 px-5 mt-[2rem]' id='home'>
             <div className='flex flex-col justify-center items-start gap-2 md:order-1 order-2'>
                 <div>
                     <h1 className='text-black md:text-[1rem] text-[1.5rem] font-bold md:w-fit w-full'><span className='text-black'>Hi I&apos;m</span> </h1>

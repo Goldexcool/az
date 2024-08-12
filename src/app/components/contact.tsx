@@ -51,7 +51,7 @@ const Contact = () => {
     //         </div>
     //     </div>
     // </section>
-    <section className="max-w-full mt-16 sm:px-10 px-5">
+    <section className="max-w-full mt-16 sm:px-10 px-5" id='contact'>
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div className="w-full">
           <Image src={conta} alt="Contact" className="w-full h-[450px] object-cover rounded-lg" />

@@ -74,7 +74,7 @@ const Service = () => {
         }
     ]
     return (
-        <section className="flex flex-col gap-2 mt-[5rem] sm:px-10 px-5">
+        <section className="flex flex-col gap-2 mt-[5rem] sm:px-10 px-5" id='project'>
             <div className='flex flex-col gap-2 justify-start items-start'>
                 <p className='md:text-[1.7rem] font-[400] text-[#0D0D0D]'>
                     Past Project

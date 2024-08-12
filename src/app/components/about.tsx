@@ -5,7 +5,7 @@ import about from '../../../public/heyzed.jpg'
 
 const Hero = () => {
     return (
-        <section className='grid lg:grid-cols-2 md:grid-cols-1 gap-10 mx-auto md:px-[3rem] sm:px-10 px-5 mt-[4rem] '>
+        <section className='grid lg:grid-cols-2 md:grid-cols-1 gap-10 mx-auto md:px-[3rem] sm:px-10 px-5 mt-[4rem]' id='about'>
             <div className='flex flex-col justify-center gap-2 md:order-2 order-2'>
                 <div>
                     <h1 className='text-black md:text-[2.5rem] text-[1.5rem] font-bold md:w-fit w-full'><span className='text-black'>ABOUT ME!!!</span> </h1>

@@ -54,11 +54,11 @@ const Services = () => {
     console.log(services);
     
     return (
-        <section className='grid md:grid-rows-2 gap-2 md:px-[3rem] sm:px-10 px-5 mt-[4rem]'>
-            <div className=' flex flex-col justify-center mb-[1rem]'>
+        <section className='grid md:grid-rows-2 gap-2 md:px-[3rem] sm:px-10 px-5 mt-[4rem]' id='service'>
+            <div className=' flex flex-col justify-center mb-[0.1rem]'>
                 <h1 className='md:text-4xl text-2xl'>Services</h1>
-                <h2 className='md:text-2xl'>What i offfer to my client</h2>
-            </div>
+                <h4 className='md:text-2xl'>What i offfer to my client</h4>
+            </div>  
             <div className='flex flex-col justify-center items-center'>
                 <div className='grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 w-full gap-4'>
                     {services.map((pro, i) => (
