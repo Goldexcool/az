@@ -65,7 +65,7 @@ const Services = () => {
                         <div key={i} className='flex flex-col gap-4 items-start p-4 bg-black-50 rounded-md'>
                             <Image src={pro.image01} alt={pro.niche} className='w-fit' />
                             <h1 className='md:text-2xl text-[1rem]'>{pro.niche}</h1>
-                            <h2 className='text-[14px] w-[80%] text-justify'>{pro.desc}</h2>
+                            <h2 className='text-[14px] w-[80%] text-start'>{pro.desc}</h2>
                         </div>
                     ))}
                 </div>
