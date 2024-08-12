@@ -25,18 +25,18 @@ const Footer: React.FC = () => {
 
                 {/* Social Media Icons */}
                 <div className="mb-4 flex space-x-4">
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+                    {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                         <FaFacebookF className="w-6 h-6" />
                     </a>
                     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                         <FaTwitter className="w-6 h-6" />
-                    </a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+                    </a> */}
+                    <a href="https://www.instagram.com/tech_degoke?igsh=emo3OXRkaHZ2Z3Nk" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                         <FaInstagram className="w-6 h-6" />
                     </a>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+                    {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                         <FaLinkedinIn className="w-6 h-6" />
-                    </a>
+                    </a> */}
                 </div>
 
 
