@@ -60,16 +60,16 @@ const Header = () => {
                         <a href="/">
                             <li className="text-main-color-gray cursor-pointer hover:scale-105 mt-10">Home</li>
                         </a>
-                        <a href="/newarrival">
+                        <a href="/">
                             <li className="text-main-color-gray cursor-pointer hover:scale-105 mt-10">About</li>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <li className="text-main-color-gray cursor-pointer hover:scale-105 mt-10">Services</li>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <li className="text-main-color-gray cursor-pointer hover:scale-105 mt-10">Project</li>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <li className="text-main-color-gray cursor-pointer hover:scale-105 mt-10">Contact</li>
                         </a>
                         <div className="flex justify-center gap-2 mt-10">
